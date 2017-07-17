@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Honey for Co-op Bank",
+  "description": "Makes Grenada Co-operative Bank's Ebanking page a delight to use.",
+  "author": "Kenice Noel",
+  "version": "1.0",
+
+  "icons": 
+  {
+    "128": "honey.png"
+    
+  },
+
+
+  "content_scripts": [
+    {
+      "matches": ["https://secure.grenadaco-opbank.com/*"],
+      "css": ["gcb_custom.css", "bootstrap.min.css", "bootstrap-grid.min.css", "line-awesome.min.css"],
+      "js": ["jquery.js", "gcb_script.js"]
+	  
+    }
+  ],
+
+  "web_accessible_resources": [
+      "images/*"
+	  
+    ]
+
+  
+}

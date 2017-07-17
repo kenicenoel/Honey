@@ -1,0 +1,402 @@
+
+/* HIDE BANNERS */
+div.pagecontent .newBanner
+{
+	display: none;
+}
+
+
+body.jsEnabled div.outside
+{
+	width: 100%;
+	margin: 0;
+}
+
+div.logo img 
+{ 
+	margin: 0 auto;
+    display: block;
+}
+
+div.logo2
+{
+	 display: none;
+} 
+
+td.sign-out > img
+{
+	display: none;
+}
+
+td.sign-out > a > img
+{
+	width: 20px;
+	height: 20px;
+}
+
+
+
+div.outside div#inner
+{
+	background-image: none;
+	width: 100%;
+}
+
+div#inner div.activityInfoBar
+{
+	padding: 3%;
+}
+
+div.pagecontent div.pagetitle 
+{
+
+    color: #000;
+    padding: 10px 0px;
+    width:100%;
+    font-size: 20px;
+	display: block;
+	/*font-weight: bold;*/
+
+}
+
+div.pagetitle img { display: none;}
+
+div#inner table.top-menu a
+{
+	color: #fff;
+}
+
+div#inner table.top-menu a:hover
+{
+	color: #009688;
+}
+
+div#inner table.top-menu td.selected-item,
+div#inner table.top-menu td.menu-item, 
+div#inner table.top-menu,
+div#inner td.sign-out
+{
+	background-image:none;
+}
+
+div#inner table.top-menu td
+{
+	background-color: #24a99c;
+}
+
+div#inner table.top-menu td.menu-item, 
+div#inner table.top-menu,
+div#inner td.sign-out
+{
+	background-color: #24a99c;
+	color: #fff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+
+tbody tr.contentheader
+{
+	background-color: #24A99C;
+}
+
+tbody tr.contentheader td.label
+{
+	padding: 5px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.mainPane div.pagecontent div#detailPane
+{
+	width: 100%;
+}
+
+div#detailPane div.shadow div.section,
+form div.section
+{
+	padding: 0;
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+
+div#detailPane div.shadow div.section div.label
+ {
+    font-weight: normal;
+    padding: 10px;
+	width: 300px;
+}
+
+div.section div.label::before
+{
+	content: "Here are your ";
+
+}
+
+tr.evenRow
+{
+	background: #e0f2f1;
+}
+
+ tr.oddRow
+{
+	background: #b2dfdb;
+}
+
+tr.evenRow td,
+tr.contenttrailer td,
+tr.oddRow td,
+table#tableAccountListingDEPOSIT tr.oddRow td
+{
+    padding: 10px 5px;
+}
+
+
+
+
+tr.evenRow td.data:nth-child(2)::before,
+tr.evenRow td.data:nth-child(3)::before,
+tr.contenttrailer td:nth-child(2)::before,
+tr.contenttrailer td:nth-child(3)::before
+{
+    content: "$";
+}
+
+
+/* Footer */
+div#inner div.framerowtrailer
+{
+	position:absolute;
+   bottom:0;
+   width:100%;
+   display: block;
+}
+
+
+
+div.framerowtrailer div.copyright 
+{
+	background-color: #24a99c;
+	color: #fff;  
+	padding: 5px;
+}
+
+div.outside div#inner,
+div#inner div.activityInfoBar
+{
+	background: none;
+}
+
+div#inner div.activityInfoBar
+{
+	/*background-color: #607d8b;*/
+	color: #24a99c;
+	margin-bottom: 0;
+	display: none;
+	padding: 20px 5px;
+	/* margin-bottom: 10px; */
+	border: none;
+}
+
+div.mainPane div.pagecontent
+{
+	z-index: 0;
+	background: none;
+}
+
+div.mainPane div.sideBar
+{
+	background-color: #455a64;
+
+}
+
+div.pagecontent.col-sm-10 div#detailPane div.sideBar
+{
+	background: none;
+}
+
+div.mainPane div.sideBar a,
+div.mainPane div.sidebar div.barItemSelected a
+{
+	color: #fff !important;
+	text-align: left;
+}
+
+div.mainPane div.sideBar a:hover 
+{ 
+	font-weight: bold; 
+	color: fff; 
+	text-decoration: underline;
+}
+
+body.jsEnabled div.textSizeBar {
+    display: block;
+    margin-bottom: 70px;
+}
+
+body.jsEnabled div.textSizeBar .textSizeButton
+{
+	background: none;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+div#detailPane div.textSizeBar span.header,
+div#detailPane div.pagesubtitle
+
+{
+	color: #24a99c;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+
+/* Orders Page*/
+
+form div.section,
+div#detailPane div.section
+{
+	background: none;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+div#detailPane div.section
+{
+	width: 100%;
+
+}
+
+div.section tr.contentheader td.heading
+{
+	color: #fff;
+	font-weight: bold;
+	padding: 5px;
+}
+
+div#detailPane select
+{
+	padding: 5px;
+	border: 1px solid #eee;
+}
+
+div#detailPane select.select
+{
+	margin-bottom: 5px;
+}
+
+div#detailPane td.data-middle a input.btn
+{
+	background: #455a64;
+	padding: 5px;
+}
+
+div#detailPane td.data-middle a input.btn:hover
+{
+	background: #fff;
+	color: #455a64;
+}
+
+div#detailPane input.btn,
+div#detailPane a.btn,
+div.pagecontent form div.section table input.btn
+div.buttons a input.btn
+{
+	background: #24a99c;
+	color: 	#fff;
+	padding: 5px;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+div#detailPane input.btn:hover,
+div#detailPane a.btn:hover
+{
+	background: #009688;
+}
+ 
+div#detailPane input.btn
+{
+	padding: 8px;
+} 
+
+
+.tableBreakdownEdit:first-child tbody tr:first-child
+{
+	background: #24A99C;
+}
+
+div#detailPane table.tableBreakdownEdit select
+{
+	border: 1px solid #eee;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+div.pagecontent.col-sm-10 div#detailPane div.divBudgetContent 
+{
+    margin: 20px 10px;
+    width: 100%;
+}
+
+div.pagecontent.col-sm-10 div#detailPane table.tableBreakdownEdit
+{
+	width: 100%;
+}
+
+td.heading 
+{
+    color: #009688;
+    padding: 6px;
+	font-size: 15px;
+}
+
+div.section table
+{
+	width: 100%;
+}
+/* 
+form div.section table
+{
+	width: 500px;
+} */
+td.data input[type="text"]
+{
+	padding: 5px;
+}
+
+/*Login and log out page  */
+div#page div.pagecontent
+{
+	background: #ffffff;
+	z-index: 0;
+}
+
+div#inner div.menu
+{
+	background: #009688;
+	color: #fff;
+	padding: 10px;
+	height: 30px;
+}
+
+div#inner div.menu a
+{
+	color: #fff;
+}
+
+
+
+
+
+
